@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: album
 title: Alegria 10
 tracks:
   - title: Minor Swing

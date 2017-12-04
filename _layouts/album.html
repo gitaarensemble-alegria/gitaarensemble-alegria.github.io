@@ -1,0 +1,16 @@
+---
+layout: page
+---
+{{content}}
+<h2>Track listing</h2>
+<ol>
+{% for t in page.tracks%}
+<li>
+  <i>{{t.title}}</i>
+  written by {{t.composer}}
+  {% if t.arranger %}
+   and arranged by <i>{{t.arranger}}</i>
+  {% endif %}
+</li>
+{% endfor %}
+</ol>
