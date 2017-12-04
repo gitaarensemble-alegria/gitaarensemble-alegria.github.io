@@ -8,10 +8,4 @@ tracks:
   - title: Theme of Schindler's list
     composer: John Williams
 ---
-{{title}}<br/>
-Tracks:
-<ol>
-{% for t in page.tracks%}
-<li><i>{{t.title}}</i> written by <i>{{t.composer}}</i></li>
-{% endfor %}
-</ol>
+Some information about Alegria 10 cd.
