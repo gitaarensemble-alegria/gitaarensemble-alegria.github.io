@@ -1,0 +1,23 @@
+---
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://www.example.com/
+METHOD:PUBLISH
+{% for r in site.data.repetities %}BEGIN:VEVENT
+UID:{{ r.date_from | date: "%Y%m%d" }}@example.com
+ORGANIZER;CN="Organizer Name":MAILTO:organizer@example.org
+LOCATION:{{r.location}}
+SUMMARY:{{ r.title }}
+CLASS:PUBLIC
+DTSTAMP;TZID=Europe/Brussels:{{site.time | date: "%Y%m%d" }}T{{site.time | date: "%H%M%S"}}
+DTSTART;TZID=Europe/Brussels:{{ r.date_from | date: "%Y%m%d" }}T{{r.date_from | date: "%H%M%S"}}
+DTEND;TZID=Europe/Brussels:{{ r.date_to | date: "%Y%m%d" }}T{{r.date_to | date: "%H%M%S"}}
+BEGIN:VALARM
+TRIGGER:-PT3D
+ACTION:DISPLAY
+DESCRIPTION: Waarschuw indien je niet aanwezig kan zijn!
+END:VALARM
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
