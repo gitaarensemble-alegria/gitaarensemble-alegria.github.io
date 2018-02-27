@@ -44,7 +44,6 @@ layout: page
   <script src="https://alegriaforms-cd35.restdb.io/assets/js/jquery.datetimepicker.full.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.5.1/lodash.min.js"></script>
 <script type="text/javascript">{% include js/restdb.io.js %}</script>
-event form id: {{page.event-form-id}}
 <form role="form" id="event-submission-form">
 <div class="form-group">
   <label>Voornaam: </label><input class="form-control" name="Voornaam" data-type="text" type="text" required>
@@ -52,9 +51,9 @@ event form id: {{page.event-form-id}}
 <div class="form-group">
   <label>Familienaam: </label><input class="form-control" name="Familienaam" data-type="text" type="text">
 </div>
-<div class="form-group">
-  <label>Event: </label><input class="form-control" name="event" data-type="text" type="text">
-</div>
+
+  <input class="form-control" name="event" data-type="text" type="hidden" value="{{page.event-form-id}}">
+
 <div class="form-group">
   <label>Email: </label><input class="form-control" name="email" data-type="email" type="email">
 </div>
