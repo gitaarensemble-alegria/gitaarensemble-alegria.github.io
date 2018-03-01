@@ -4,20 +4,20 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 ---
-Welcome to Gitaarensemble Alegria vzw website.
 <!-- Home -->
   <div class="wrapper style1 first">
     <article class="container" id="top">
-      <div class="row">
-        <div class="4u 12u(mobile)">
-          <span class="image fit"><img src="assets/images/pic00.jpg" alt="" /></span>
-        </div>
-        <div class="8u 12u(mobile)">
-          <header>
-            <h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
-          </header>
-          <p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
-          <a href="#work" class="button big scrolly">Learn about what I do</a>
+      <div>
+        <div class="row">
+          <div class="12u">
+          Zin om mee te spelen bij een enthousiaste groep gitaristen? Zin om er het beste van je muzikale en gitaristieke kunnen te geven? Zin om mee te genieten van de sfeer en van onze dirigentes Charlotte en Marleen?<br/><br/>
+
+          Heb je de Middelbare graad 3 in de academie afgewerkt of ben je afgestudeerd aan de muziekacademie? Stuur dan ‘presto’ een mailtje naar charlottelammertijn@yahoo.com of marleencasteele@gmail.com en kom proef-repeteren bij de plezantste groep van ’t land!<br/><br/>
+
+          De repetities gaan door op zaterdag van 13u tot 15u.<br/><br/>
+
+          We verwachten je, want musiceren in groep is fantastisch!<br/><br/>
+          </div>
         </div>
       </div>
     </article>
