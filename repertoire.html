@@ -2,6 +2,19 @@
 layout: page
 title: Muziek
 ---
-{% for piece in site.data.repertoire%}
-{{piece.title}}<br/>
-{% endfor %}
+<div class="wrapper style1 first">
+  <article id="portfolio" class="container">
+		<header>
+			<h2>{{page.title}}</h2>
+		</header>
+		<div >
+			<div class="row">
+				<div class="12u">
+          {% for piece in site.data.repertoire%}
+          {{piece.title}}<br/>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
