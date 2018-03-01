@@ -13,6 +13,10 @@
   {{ content }}
 
   {% include footer.html %}
+  {% if page.layout == 'event' %}
+    <!-- load additional javascript for restdb form submission -->
+    {% include restdb.scripts.html %}
+  {% endif %}
 </body>
 
 </html>
