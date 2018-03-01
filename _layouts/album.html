@@ -1,16 +1,32 @@
 ---
 layout: page
 ---
-{{content}}
-<h2>Track listing</h2>
-<ol>
-{% for t in page.tracks%}
-<li>
-  <i>{{t.title}}</i>
-  written by {{t.composer}}
-  {% if t.arranger %}
-   and arranged by <i>{{t.arranger}}</i>
-  {% endif %}
-</li>
-{% endfor %}
-</ol>
+<div class="wrapper style1 first">
+  <article id="portfolio" class="container">
+		<header>
+			<h2>{{page.title}}</h2>
+		</header>
+		<div >
+			<div class="row">
+				<div class="12u">
+          {{content}}
+				</div>
+			</div>
+      <div class="row">
+				<div class="12u">
+          <ol>
+          {% for t in page.tracks%}
+          <li>
+            <i>{{t.title}}</i>
+            written by {{t.composer}}
+            {% if t.arranger %}
+             and arranged by <i>{{t.arranger}}</i>
+            {% endif %}
+          </li>
+          {% endfor %}
+          </ol>
+				</div>
+			</div>
+		</div>
+	</article>
+</div>

@@ -1,7 +1,20 @@
 ---
 layout: page
-title: All albums
+title: CDs
 ---
-{% for album in site.albums%}
-<a href="{{album.url}}">{{album.title}}</a><br/>
-{% endfor %}
+<div class="wrapper style1 first">
+  <article id="portfolio" class="container">
+		<header>
+			<h2>{{page.title}}</h2>
+		</header>
+		<div >
+			<div class="row">
+				<div class="12u">
+          {% for album in site.albums%}
+          <a href="{{album.url}}">{{album.title}}</a><br/>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
