@@ -28,6 +28,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 # allows generation for future collection items (eg future events)
 future: true
+#enable sass support
+sass:
+  sass_dir: _sass
 theme: minima
 plugins:
   - jekyll-feed
