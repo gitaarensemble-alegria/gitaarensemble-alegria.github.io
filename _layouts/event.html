@@ -3,92 +3,53 @@ layout: page
 ---
 <div class="wrapper style1 first">
   <article id="portfolio" class="container">
-					<header>
-						<h2>{{page.title}}</h2>
-						<p>{{content}}</p>
-					</header>
-					<div >
-						<div class="row">
-							<div class="12u">
-                <form role="form" id="event-submission-form">
-                  <div>
-                    <div class="row">
-                      <div class="12u">
-                        <input class="form-control" placeholder="Voornaam" name="Voornaam" data-type="text" type="text" required>
-                      </div>
-                    </div>
+		<header>
+			<h2>{{page.title}}</h2>
+			<p>{{content}}</p>
+		</header>
+		<div >
+			<div class="row">
+				<div class="12u">
+          <form role="form" id="event-submission-form">
+            <div>
+              <div class="row">
+                <div class="12u">
+                  <input class="form-control" placeholder="Voornaam" name="Voornaam" data-type="text" type="text" required>
+                </div>
+              </div>
 
-                    <div class="row">
-                      <div class="12u">
-                        <input class="form-control" placeholder="Familienaam" name="Familienaam" data-type="text" type="text">
-                      </div>
-                    </div>
+              <div class="row">
+                <div class="12u">
+                  <input class="form-control" placeholder="Familienaam" name="Familienaam" data-type="text" type="text">
+                </div>
+              </div>
 
-                    <div class="row">
-                      <div class="12u">
-                        <input class="form-control" placeholder="email" name="email" data-type="email" type="email">
-                      </div>
-                    </div>
+              <div class="row">
+                <div class="12u">
+                  <input class="form-control" placeholder="email" name="email" data-type="email" type="email">
+                </div>
+              </div>
 
-                    <div class="row">
-                      <div class="12u">
-                        <button class="btn btn-primary btn-lg" id="btn-submit" type="submit" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Versturen...">Versturen</button>
-                      </div>
-                    </div>
+              <div class="row">
+                <div class="12u">
+                  <button class="btn btn-primary btn-lg" id="btn-submit" type="submit" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Versturen...">Versturen</button>
+                </div>
+              </div>
 
-
-                  </div>
-
-
-
-
-
-
-                  <div >
-                  </div>
-                  </form>
-							</div>
-						</div>
-					</div>
-
-				</article>
+              <div class="row">
+                <div class="12u">
+                  <input class="form-control" name="event" data-type="text" type="hidden" value="{{page.event-form-id}}">
+                </div>
+              </div>
+            </div>
+          </form>
+				</div>
+			</div>
+		</div>
+	</article>
 </div>
 
-<h2>Reservatie formulier</h2>
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
-
-  <link href="https://alegriaforms-cd35.restdb.io/assets/css/jquery.datetimepicker.min.css" rel="stylesheet">
-  <!--
-  <style>
-    .thank-you{
-      font-size: 16px;
-      padding: 20px;
-    }
-    #event-submission-form{
-      padding: 10px;
-    }
-    #event-submission-form input,  #event-submission-form select{
-      width: 300px;
-    }
-    label{
-      display: block;
-    }
-    .form-control{
-      width: auto;
-    }
-    .help-block{
-      margin-left:10px;
-    }
-    .progress{
-      width: 300px;
-      height:10px;
-      border-radius:0px;
-      margin-top: 2px;
-    }
-    #btn-submit{
-        width: 300px;
-    }
-  </style>
--->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+<link href="https://alegriaforms-cd35.restdb.io/assets/css/jquery.datetimepicker.min.css" rel="stylesheet">
