@@ -17,9 +17,10 @@ title: Optredens
             Example icon
             <span class="icon featured fa-thumbs-o-up"></span>
             -->
-            <h3>{{event.title}}</h3>
-            <p>{{event.date | date: "%d %b %Y"}} <br/><a href="{{event.url}}">Meer informatie</a></p>
-
+            <a href="#" class="image featured">
+              <img src="http://via.placeholder.com/350x350"/>
+            </a>
+            <h3><a href="{{event.url}}">{{event.date | date: "%d %b %Y"}}<br/>{{event.title}}</a></h3>        
           </section>
         </div>
       {% endfor %}
