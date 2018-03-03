@@ -9,9 +9,14 @@ title: CDs
 		</header>
 		<div >
 			<div class="row">
-				<div class="12u">
-          {% for album in site.albums%}
-          <a href="{{album.url}}">{{album.title}}</a><br/>
+        {% for album in site.albums%}
+				<article class="4u 12u(mobile)">
+          <a href="#" class="image featured">
+            <img src="http://via.placeholder.com/350x350"/>
+          </a>
+          <h3><a href="{{album.url}}">{{album.title}}</a></h3>
+
+      </article>
           {% endfor %}
         </div>
       </div>
