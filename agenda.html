@@ -8,8 +8,8 @@ title: Agenda
 			<div class="row">
         <table>
         {% for r in site.data.repetities | sort: 'date_from' %}
-				  <tr>
-            <td>{{ r.title }}</td><td>{{ r.date_from | date: "%Y %B %d %H%M" }}</td><td>{{ r.date_to | date: "%Y %B %d %H%M" }}</td><td><{{ r.location }}/td>
+	<tr>
+            <td>{{ r.title }}</td><td>{{ r.date_from | date: "%Y %B %d %H:%M" }}</td><td>{{ r.date_to | date: "%H:%M" }}</td><td>{{ r.location }}</td>
           </tr>
         {% endfor %}
         </table>
