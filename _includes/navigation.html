@@ -5,7 +5,7 @@
     <li><a href="/">Home</a></li>
     {% for p in site.pages %}
       <!-- only include pages with titles -->
-      {% if p.title != nil %}
+      {% if p.title != nil and p.title != "agenda.html" %}
         <li><a href="{{p.url}}">{{p.title}}</a></li>
       {% endif %}
     {% endfor %}
