@@ -1,0 +1,20 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "location": {
+    "@type": "Place",
+    "name": "{{page.location}}",
+    "address":{
+      "@type": "PostalAddress",
+      "addressLocality": "{{page.city}}"
+    }
+  },
+  "name": "{{page.title}}",
+  "startDate": "{{page.date_start | date: "%Y%m%d" }}T{{page.date_start | date: "%H%M"}}",
+  "endDate": "{{page.date_end | date: "%Y%m%d" }}T{{page.date_end | date: "%H%M"}}",
+  "description": "{{page.content | strip_html | strip_newlines}}",
+  "performer": {
+    "@type": "PerformingGroup",
+    "name": "{{page.performer}}"
+    }
+}

@@ -1,8 +1,8 @@
 <head>
   <title>
     Waregems Gitaarensemble Alegria
-    {% if p.title != nil %}
-     - {{p.title}}
+    {% if page.title != nil %}
+     - {{page.title}}
      {% endif %}
   </title>
   <meta charset="utf-8" />
@@ -11,5 +11,7 @@
   <link rel="stylesheet" href="/assets/css/main.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
-  {% seo %}
+  {% if page.layout != 'event'}
+    {% seo %}
+  {% endif %}
 </head>
