@@ -1,13 +1,9 @@
 <!-- Nav -->
 <nav id="nav">
   <ul class="container">
-    <!-- loop over pages -->
-    <li><a href="/">Home</a></li>
-    {% for p in site.pages %}
-      <!-- only include pages with titles -->
-      {% if p.title != nil and p.title != "agenda.html" %}
-        <li><a href="{{p.url}}">{{p.title}}</a></li>
-      {% endif %}
-    {% endfor %}
+    <li><a href="#intro">Home</a></li>
+    <li><a href="#events">Optredens</a></li>
+    <li><a href="#music">Muziek</a></li>
+    <li><a href="#links">Links</a></li>
   </ul>
 </nav>

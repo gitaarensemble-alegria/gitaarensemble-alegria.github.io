@@ -6,7 +6,7 @@ layout: page
 ---
 <!-- Home -->
   <div class="wrapper style1">
-    <article class="container">
+    <article class="container" id="intro">
       <div>
 
           {% include home-intro.html%}
@@ -26,5 +26,12 @@ layout: page
   <div class="wrapper style1">
     <article id="music">
       {% include home-music.html %}
+    </article>
+  </div>
+
+  <!-- links -->
+  <div class="wrapper style2">
+    <article id="links">
+      {% include home-links.html %}
     </article>
   </div>
