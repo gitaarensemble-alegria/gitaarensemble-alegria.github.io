@@ -1,0 +1,26 @@
+<header>
+  <h2>Muziek</h2>
+  <!-- <p>Odio turpis amet sed consequat eget posuere consequat.</p> -->
+
+</header>
+{% assign next_three =  site.data.repertoire | sample:3 %}
+<div class="container">
+  <div class="row">
+    {% for m in next_three limit:3 %}
+    <div class="4u 12u(mobile)">
+      <section class="box style1">
+        <span class="icon featured fas fa-music"></span>
+        <p><i>{{m.title}}</i> - {{m.composer}}</p>
+      </section>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+<footer>
+  <p><a href="repertoire.html">Alle muziek</a></p>
+  <!--
+  <a href="#portfolio" class="button big scrolly">See some of my recent work</a>
+  -->
+</footer>

@@ -5,20 +5,26 @@
 layout: page
 ---
 <!-- Home -->
-  <div class="wrapper style1 first">
-    <article class="container" id="top">
+  <div class="wrapper style1">
+    <article class="container">
       <div>
-        <div class="row">
-          <div class="12u">
-          Zin om mee te spelen bij een enthousiaste groep gitaristen? Zin om er het beste van je muzikale en gitaristieke kunnen te geven? Zin om mee te genieten van de sfeer en van onze dirigentes Charlotte en Marleen?<br/><br/>
 
-          Heb je de Middelbare graad 3 in de academie afgewerkt of ben je afgestudeerd aan de muziekacademie? Stuur dan ‘presto’ een mailtje naar charlottelammertijn@yahoo.com of marleencasteele@gmail.com en kom proef-repeteren bij de plezantste groep van ’t land!<br/><br/>
+          {% include home-intro.html%}
 
-          De repetities gaan door op zaterdag van 13u tot 15u.<br/><br/>
-
-          We verwachten je, want musiceren in groep is fantastisch!<br/><br/>
-          </div>
-        </div>
       </div>
+    </article>
+  </div>
+
+  <!-- optredens -->
+  <div class="wrapper style2">
+    <article id="events">
+      {% include home-events.html %}
+    </article>
+  </div>
+
+  <!-- muziek -->
+  <div class="wrapper style1">
+    <article id="music">
+      {% include home-music.html %}
     </article>
   </div>

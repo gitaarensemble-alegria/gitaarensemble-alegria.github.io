@@ -1,0 +1,27 @@
+<header>
+  <h2>Optredens</h2>
+  <!-- <p>Odio turpis amet sed consequat eget posuere consequat.</p> -->
+
+</header>
+{% assign next_three =  site.events | sort: 'date_start' %}
+<div class="container">
+  <div class="row">
+    {% for event in next_three limit:3 %}
+    <div class="4u 12u(mobile)">
+      <section class="box style1">
+        <span class="icon featured fas fa-calendar"></span>
+        <h3>{{event.title}}</h3>
+        <p>{{event.description}}</p>
+      </section>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+<footer>
+  <p><a href="events.html">Alle optredens</a></p>
+  <!--
+  <a href="#portfolio" class="button big scrolly">See some of my recent work</a>
+  -->
+</footer>
