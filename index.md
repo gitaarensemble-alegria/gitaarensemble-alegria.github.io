@@ -47,3 +47,10 @@ layout: page
       {% include home-links.html %}
     </article>
   </div>
+
+  <!-- links -->
+  <div class="wrapper style3">
+    <article id="contact">
+      {% include home-contact.html %}
+    </article>
+  </div>
