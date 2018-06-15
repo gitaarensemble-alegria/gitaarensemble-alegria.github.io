@@ -15,7 +15,7 @@ layout: page
     </article>
   </div>
   <div class="wrapper style1">
-    <article class="container">
+    <article class="container" id="wanted">
       <div>
         <h1>Alegria zoekt gitaristen!</h1>
         <p>
@@ -48,9 +48,16 @@ layout: page
     </article>
   </div>
 
-  <!-- links -->
+  <!-- contact -->
   <div class="wrapper style3">
     <article id="contact">
       {% include home-contact.html %}
+    </article>
+  </div>
+
+  <!-- fotos -->
+  <div class="wrapper style1">
+    <article id="fotos">
+      Fancy link to fotogallerijen
     </article>
   </div>
