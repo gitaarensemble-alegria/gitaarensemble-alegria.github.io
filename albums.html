@@ -3,22 +3,21 @@ layout: page
 title: CDs
 menu: true
 menu-order: 10
+permalink: /albums/
 ---
-<div class="wrapper style1 first">
-  <article id="portfolio" class="container">
-		<div >
-			<div class="row">
-        {% for album in site.albums%}
-				<article class="4u 12u(mobile)">
-          <a href="#" class="image featured">
-            <img src="http://via.placeholder.com/350x350"/>
-          </a>
-          <h3><a href="{{album.url}}">{{album.title}}</a></h3>
+<section class="wrapper style1">
+  <div id="portfolio" class="inner">
 
-      </article>
-          {% endfor %}
-        </div>
+    <div class="col-12">
+      {% for album in site.albums%}
+      <div class="col-4">
+        <a href="#" class="image featured">
+          <img src="http://via.placeholder.com/350x350" />
+        </a>
+        <h3>{{album.title}}</h3>
+
       </div>
+      {% endfor %}
     </div>
-  </article>
-</div>
+  </div>
+</section>
