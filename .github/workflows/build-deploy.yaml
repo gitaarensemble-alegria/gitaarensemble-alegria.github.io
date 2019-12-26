@@ -11,3 +11,11 @@ jobs:
         ref: master
     - name: Run jekyll
       uses: docker://faph/action-jekyll:1.5
+    - name: Copy to one.com
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.ONE_SSH_HOST }}
+        username: ${{ secrets.ONE_SSH_USER }}
+        password: ${{ secrets.ONE_SSH_PASSWORD }}
+        source: "/github/workspace/_site"
+        target: "/www/testscp"
