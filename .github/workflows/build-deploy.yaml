@@ -19,3 +19,4 @@ jobs:
         password: ${{ secrets.ONE_SSH_PASSWORD }}
         source: "/github/workspace/_site"
         target: "/www/testscp"
+        strip_components: 3
