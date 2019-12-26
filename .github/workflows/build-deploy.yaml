@@ -1,0 +1,13 @@
+name: build and deploy jekyll website
+on: [push]
+jobs:
+  build:
+    name: Generate website
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v1
+      with:
+        ref: master
+    - name: Run jekyll
+      uses: docker://faph/action-jekyll:1.5
