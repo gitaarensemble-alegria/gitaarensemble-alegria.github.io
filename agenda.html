@@ -1,24 +1,37 @@
 ---
 layout: page
 title: Agenda
-menu: true
+menu: false
 menu-order: 20
+permalink: /agenda/
 ---
-<div class="wrapper style1 first">
-  <article id="portfolio" class="container">
-		<div >
-			<div class="row">
-        <i>Laatste aanpassing: {{site.time | date: "%d %B %Y"}}</i> | <a href="ical.ics">iCal</a>
-        <table>
-          <tr><th></th><th>Datum</th><th>Start</th><th>Eind</th><th>Locatie</th></tr>
-          {% assign collection =  site.data.repetities | sort: 'date_from' %}
-        {% for r in collection %}
-	        <tr>
-            <td>{{ r.title }}</td><td>{{ r.date_from | date: "%d %B %Y" }}</td><td>{{ r.date_from | date: "%H:%M" }}</td><td>{{ r.date_to | date: "%H:%M" }}</td><td>{{ r.location }}</td>
-          </tr>
-        {% endfor %}
-        </table>
-      </div>
-    </div>
-  </article>
+<div class="inner">
+
+
+<div class="table-wrapper">
+    <i>Laatste aanpassing: {{site.time | date: "%d %B %Y"}}</i> | <a href="ical.ics">iCal</a>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th>Datum</th>
+            <th>Start</th>
+            <th>Eind</th>
+            <th>Locatie</th>
+        </tr>
+        </thead>
+        {% assign collection = site.data.repetities | sort: 'date_from' %}
+        <tbod>
+            {% for r in collection %}
+            <tr>
+                <td>{{ r.title }}</td>
+                <td>{{ r.date_from | date: "%d %B %Y" }}</td>
+                <td>{{ r.date_from | date: "%H:%M" }}</td>
+                <td>{{ r.date_to | date: "%H:%M" }}</td>
+                <td>{{ r.location }}</td>
+            </tr>
+            {% endfor %}
+        </tbod>
+    </table>
 </div>
+</div>ln
