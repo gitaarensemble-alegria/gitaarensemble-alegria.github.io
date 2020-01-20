@@ -4,9 +4,18 @@ layout: page
 <script type="application/ld+json">
 {% include google_event.json %}
 
+
 </script>
 <section class="wrapper">
     <div id="portfolio" class="inner">
+        <h4>
+        {% for d in page.performances %}
+        {{d| date: "%d %b %Y" }}
+            {% if forloop.last == false %}
+            ,
+            {% endif %}
+        {% endfor %}
+        </h4>
         {{content}}
     </div>
 </section>
