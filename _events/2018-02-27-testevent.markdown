@@ -7,6 +7,7 @@ performer: Alegria
 location: SAMWD Waregem
 city: Waregem
 event-form-id: test-event-id
+published: true
 ---
 Information on this fantastic concert!
 
