@@ -1,3 +1,7 @@
+{% for performance in page.performances %}
+{% assign endTime = performance | date: "%s" | plus: 3600 %}
+<script type="application/ld+json">
+
 {
   "@context": "http://schema.org",
   "@type": "Event",
@@ -6,15 +10,21 @@
     "name": "{{page.location}}",
     "address":{
       "@type": "PostalAddress",
-      "addressLocality": "{{page.city}}"
+        "streetAddress": "{{page.street}}",
+        "postalCode": "{{page.postalCode}}",
+      "addressLocality": "{{page.city}}",
+      "addressCountry": "{{page.country | default: "Belgium"}}"
     }
   },
   "name": "{{page.title}}",
-  "startDate": "{{page.date_start | date: "%Y%m%d" }}T{{page.date_start | date: "%H%M"}}",
-  "endDate": "{{page.date_end | date: "%Y%m%d" }}T{{page.date_end | date: "%H%M"}}",
-  "description": "{{page.content | strip_html | strip_newlines}}",
+  "startDate": "{{performance | date_to_rfc822}}",
+  "endDate": "{{endTime | date_to_rfc822}}",
+  "description": "{{page.content | strip_html | truncate: 100 | strip_newlines}}",
   "performer": {
     "@type": "PerformingGroup",
     "name": "{{page.performer}}"
     }
 }
+
+</script>
+{% endfor %}
