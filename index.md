@@ -1,6 +1,35 @@
 ---
 layout: page
 ---
+{% assign events = site.events | where: 'published',true %}
+
+
+{% assign first_upcoming = events[0] %}
+{% assign first_performance = first_upcoming.performances[0] %}
+{% for event in events %}
+  {% for performance in event.performances %}
+    {% assign first_upcoming_seconds = first_upcoming | date: "%s" %}
+    {% assign performance_seconds = performance | date: "%s" %}
+    {% assign now = site.time | date: "%s" %}
+    {% if performance_seconds < first_upcoming_seconds and performance_seconds>now%}
+      {% assign first_upcoming = event %}
+      {% assign first_performance = performance %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+ 
+{% if events.size > 0 %} <!-- are there any upcoming events? -->
+<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<ul class="features">
+								<li class="icon fa-calendar-check-o">
+									<h3>{{first_upcoming.title}}</h3>
+									<a href="{{first_upcoming.url}}" class="button primary">Informatie</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+{% endif %}
 <section id="one" class="wrapper style1 special">
     <div class="inner">
         <header class="major">
