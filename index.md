@@ -33,24 +33,22 @@ layout: page
 <section id="one" class="wrapper style1 special">
     <div class="inner">
         <header class="major">
-            <h2>Alegría</h2>
-            <p>
-                bestaat uit een 20-tal enthousiaste gitaristen die onder leiding van onze dirigenten Marleen Casteele en Charlotte Lammertijn een repertoire gaande van renaissance- tot popmuziek brengen. Naast de klassieke gitaar bespelen we bas- en octaafgitaar(evenals) en ook elektrische gitaar. Soms wordt daar percussie, blokfluit, dwarsfluit of cello aan toegevoegd.
-            </p>
-            <p>
-                We doen vaak mee aan muzikale evenementen, zoals ‘Dag van de Gitaar’, ‘Cultuurmarkt Waregem’ en wedstrijden. Zo werden we in 2008 eerste laureaat van de Ottoboni-kamermuziekwedstrijd in Lier met 90 % en daar zijn we trots op! In 2011 namen we deel aan het internationale festival Mondomusica in Cremona (Italië) wat ook een onvergetelijke gebeurtenis was.
-            </p>
+        <!-- Adding the markdown attribute to the div, no trailing whitespace!!! -->
+        <div markdown="1">
+## Alegría
+            
+is een enthousiaste groep gitaristen die onder leiding van Charlotte Lammertijn wekelijks mag doen wat het graag doet, namelijk samen muziek maken. Diverse muziekstijlen passeren de revue, van klassiek tot modern. Naast onze klassieke gitaren wordt er aanvullend ook basgitaar, octaafgitaar, elektrische gitaar en soms ook percussie gespeeld.
+            
+Daarnaast nemen we graag deel aan muzikale evenementen zoals 'dag van de gitaar' en  cultuurmarkten. Wedstrijden gaan we eveneens niet uit de weg zoals de Ottoboni-kamermuziekwedstrijd te Lier en Mondomusica in Cremona (Italië).
+            
+Alegría maakt graag kennis met binnen- en buitenlandse gitaarensembles en koren, waarmee duoconcerten georganiseerd worden. Alegría was reeds te gast in Cambridge (GB), Rheine (Duitsland), Mirandola (Italië), Juvisy-sur-Orge (Frankrijk), Hongarije en Groningen (Nederland). We werkten samen met de gitaarensembles Cuerda (Antwerpen), Color (Schaarbeek), het gitaarduo Flâmas en met enkele koren, ondermeer La Gioia (Vichte) en Amaranthe (Oudenaarde).            
 
-            <p>
-                Alegría maakt graag kennis met binnen- en buitenlandse gitaarensembles en koren, waarmee duoconcerten georganiseerd worden. Alegría was te gast in Cambridge (GB), Rheine (Duitsland), Mirandola (Italië) en Juvisy-sur-Orge (Frankrijk). We werkten samen met de gitaarensembles Cuerda (Antwerpen), Color (Schaarbeek), het gitaarduo Flâmas en met enkele koren, ondermeer La Gioia (Vichte) en Amaranthe (Oudenaarde).
-            </p>
+Dit jaar is Alegria te gast in Rheine (Duitsland) en in maart 2021 komt het Hongaarse gitaarensemble naar België om samen met Alegria een duoconcertweekend te spelen.            
 
-            <p>
-                Indien u geïnteresseerd bent in een concert of een muzikale omlijsting van recepties, huwelijken of andere evenementen kan u contact opnemen via dit formulier.
-            </p>
-            <p>
-                Met vriendelijke groeten, Gitaarensemble Alegria
-            </p>
+Indien u geïnteresseerd bent in een concert of een muzikale omlijsting van recepties, huwelijken of andere evenementen kan u contact opnemen via dit formulier.
+
+Met vriendelijke groeten, Gitaarensemble Alegria
+</div>
         </header>
         <!--
         <ul class="icons major">
