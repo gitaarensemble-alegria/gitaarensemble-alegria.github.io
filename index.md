@@ -43,7 +43,7 @@ Daarnaast nemen we graag deel aan muzikale evenementen zoals 'dag van de gitaar'
             
 Alegría maakt graag kennis met binnen- en buitenlandse gitaarensembles en koren, waarmee duoconcerten georganiseerd worden. Alegría was reeds te gast in Cambridge (GB), Rheine (Duitsland), Mirandola (Italië), Juvisy-sur-Orge (Frankrijk), Hongarije en Groningen (Nederland). We werkten samen met de gitaarensembles Cuerda (Antwerpen), Color (Schaarbeek), het gitaarduo Flâmas en met enkele koren, ondermeer La Gioia (Vichte) en Amaranthe (Oudenaarde).            
 
-Dit jaar is Alegría te gast in Rheine (Duitsland) en in maart 2021 komt het Hongaarse gitaarensemble naar België om samen met Alegria een duoconcertweekend te spelen.            
+Dit jaar is Alegría te gast in Rheine (Duitsland) en in maart 2021 komt het Hongaarse gitaarensemble naar België om samen met Alegría een duoconcertweekend te spelen.            
 
 Indien u geïnteresseerd bent in een concert of een muzikale omlijsting van recepties, huwelijken of andere evenementen kan u [contact met ons opnemen](mailto:info@gitaarensemble-alegria.be?subject=Meer info over een concert).
 
