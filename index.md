@@ -19,15 +19,20 @@ layout: page
 {% endfor %}
  
 {% if events.size > 0 %} <!-- are there any upcoming events? -->
-<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<ul class="features">
-								<li class="icon fa-calendar-check-o">
-									<h3>{{first_upcoming.title}}</h3>
-									<a href="{{first_upcoming.url}}" class="button primary">Informatie</a>
-								</li>
-							</ul>
+<section id="three" class="wrapper style3 alt">
+<section class="spotlight">
+<div class="image">
+  <img src="{{first_upcoming.asset}}" />
+</div>
+						<div class="content">
+							
+								
+									<h2>{{first_upcoming.title}}</h2>
+									<p>{{first_upcoming.description}}</p>
+									<p><a href="{{first_upcoming.url}}" class="button primary">Informatie</a></p>
+								
 						</div>
+					</section>
 					</section>
 {% endif %}
 <section id="one" class="wrapper style1 special">
