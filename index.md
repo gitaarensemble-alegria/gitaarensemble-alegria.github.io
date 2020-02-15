@@ -42,7 +42,7 @@ layout: page
         <div markdown="1">
 ## Alegría
             
-is een enthousiaste groep gitaristen die onder leiding van Charlotte Lammertijn wekelijks mag doen wat het graag doet, namelijk samen muziek maken. Diverse muziekstijlen passeren de revue, van klassiek tot modern. Naast onze klassieke gitaren wordt er aanvullend ook basgitaar, octaafgitaar, elektrische gitaar en soms ook percussie gespeeld.
+is een enthousiaste groep gitaristen die onder leiding van [Charlotte Lammertijn]({% link charlotte.md %}) wekelijks mag doen wat het graag doet, namelijk samen muziek maken. Diverse muziekstijlen passeren de revue, van klassiek tot modern. Naast onze klassieke gitaren wordt er aanvullend ook basgitaar, octaafgitaar, elektrische gitaar en soms ook percussie gespeeld.
             
 Daarnaast nemen we graag deel aan muzikale evenementen zoals 'dag van de gitaar' en  cultuurmarkten. Wedstrijden gaan we eveneens niet uit de weg zoals de Ottoboni-kamermuziekwedstrijd te Lier en Mondomusica in Cremona (Italië).
             
