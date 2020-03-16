@@ -18,6 +18,20 @@ layout: page
   {% endfor %}
 {% endfor %}
  
+ <section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+        <h2>Concertweekend uitgesteld</h2>
+        <p>
+        Om de verspreiding van het coronavirus in te dijken zal de Stedelijke Kunstacademie (hoofdschool en vestigingen) alle lessen en activiteiten schrappen vanaf zaterdag 14 maart tot en met 4 april.
+        </p>
+        <p>
+        Daarom wordt het concertweekend van 21 en 22 maart 2020 uitgesteld.
+        </p>
+        </header>
+    </div>
+</section>
+ 
 {% if events.size > 0 %} <!-- are there any upcoming events? -->
 <section id="three" class="wrapper style3 alt">
 <section class="spotlight">
