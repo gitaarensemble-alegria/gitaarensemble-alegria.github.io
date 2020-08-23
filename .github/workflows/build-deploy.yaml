@@ -1,5 +1,5 @@
 name: build and deploy jekyll website
-on: [push]
+on: [push,workflow_dispatch]
 jobs:
   build:
     name: Generate website
