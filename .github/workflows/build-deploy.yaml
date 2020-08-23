@@ -18,3 +18,4 @@ jobs:
         ftp-username: ${{ secrets.ONE_SFTP_USER }}
         ftp-password: ${{ secrets.ONE_SFTP_PASSWORD }}
         local-dir: "/github/workspace/_site"
+        git-ftp-args: --insecure # skip checking certificate :/
