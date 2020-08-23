@@ -1,0 +1,75 @@
+---
+layout: event
+title:  "Wijn- en pralineverkoop 2020"
+# asset: /assets/images/verkoop-2020.jpg
+location: Oblatenauditorium SAMWD Waregem
+street: Olmstraat 25
+postalCode: 8790
+city: Waregem
+# country is optional and defaults to Belgium
+published: true
+---
+<p>
+Alegria is een vrolijk gitaarensemble waar muziek, eten en vriendschap voorp staan. We kijken uit naar een boeiend muzikaal jaar en hopen spoedig onze muziek voor te stellen aan het publiek.
+</p>
+<p>
+Om alles te kunnen blijven organiseren, verkopen we opnieuw wijn, prosecco en pralines.
+</p>
+<p>
+Alvast bedankt voor jullie steun!
+</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#confirmation").hide();
+    });
+
+
+    function updateThanksMessage() {
+
+    }
+</script>
+<script type="text/javascript">var submitted = false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted) { updateThanksMessage(); $('#reservation').hide();$('#confirmation').show();}"></iframe>
+<form id="reservation"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSduYM1u74pb1Q9MSSkFsFCior7Onioij9ZooTWR4pPFeNEswA/formResponse"
+      target="hidden_iframe" onsubmit="submitted=true;" method="POST">
+
+    <label>Email</label>
+    <input name="emailAddress" type="email" required placeholder="Email"/>
+
+    <label>Naam</label>
+    <input name="entry.2061333314" type="text" required/>
+
+    <label>Adres</label>
+    <input name="entry.918822720" type="text" required/>
+
+    <label>Telefoon</label>
+    <input name="entry.1917552059" type="text" required/>
+
+    <label>Aantal flessen witte wijn (€8 per fles)</label>
+    <input name="entry.358194782" type="number" required min="0"/>
+
+    <label>Aantal flessen rode wijn (€8 per fles)</label>
+    <input name="entry.1785954078" type="number" required min="0"/>
+
+    <label>Aantal flessen prosecco (€8 per fles)</label>
+    <input name="entry.131888987" type="number" required min="0"/>
+
+    <label>Aantal dozen pralines (€12 per fles)</label>
+    <input name="entry.1831293348" type="number" required min="0"/>
+
+    <div class="col-12">
+        <ul class="actions" style="padding-top: 10px">
+            <li><input type="submit" value="Verzenden" class="primary"></li>
+
+        </ul>
+    </div>
+</form>
+
+
+<div id="confirmation" class="col-12">
+    <h4>Je bestelling is goed ontvangen</h4>
+    <p>De kaarten zullen klaarliggen aan de ingang.<br/>Waregems Gitaarensemble Alegría vzw</p>
+</div>

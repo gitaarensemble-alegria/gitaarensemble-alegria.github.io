@@ -17,34 +17,32 @@ layout: page
     {% endif %}
   {% endfor %}
 {% endfor %}
- 
+
  <section id="three" class="wrapper style3 special">
     <div class="inner">
         <header class="major">
-        <h2>Concertweekend uitgesteld</h2>
+        <h2>Wijn- en pralineverkoop 2020</h2>
         <p>
-        Om de verspreiding van het coronavirus in te dijken zal de Stedelijke Kunstacademie (hoofdschool en vestigingen) alle lessen en activiteiten schrappen vanaf zaterdag 14 maart tot en met 4 april.
+        Ook dit jaar verkopen we wijn, prosecco en pralines om activiteiten te organiseren.
         </p>
-        <p>
-        Daarom wordt het concertweekend van 21 en 22 maart 2020 uitgesteld.
-        </p>
+        <p><a href="/events/2020-10-03-wijn-praline-verkoop.html" class="button primary">Bestellen</a></p>
         </header>
     </div>
 </section>
- 
-{% if events.size > 0 %} <!-- are there any upcoming events? -->
+
+{% if events.size > 10 %} <!-- are there any upcoming events? skip upcoming events for now until moved to hugo -->
 <section id="three" class="wrapper style3 alt">
 <section class="spotlight">
 <div class="image">
   <img src="{{first_upcoming.asset}}" />
 </div>
 						<div class="content">
-							
-								
+
+
 									<h2>{{first_upcoming.title}}</h2>
 									<p>{{first_upcoming.description}}</p>
 									<p><a href="{{first_upcoming.url}}" class="button primary">Informatie</a></p>
-								
+
 						</div>
 					</section>
 					</section>
@@ -55,11 +53,11 @@ layout: page
         <!-- Adding the markdown attribute to the div, no trailing whitespace!!! -->
         <div markdown="1">
 ## Alegría
-            
+
 is een enthousiaste groep gitaristen die onder leiding van [Charlotte Lammertijn]({% link charlotte.md %}) wekelijks mag doen wat het graag doet, namelijk samen muziek maken. Diverse muziekstijlen passeren de revue, van klassiek tot modern. Naast onze klassieke gitaren wordt er aanvullend ook basgitaar, octaafgitaar, elektrische gitaar en soms ook percussie gespeeld.
-            
+
 Daarnaast nemen we graag deel aan muzikale evenementen zoals 'dag van de gitaar' en  cultuurmarkten. Wedstrijden gaan we eveneens niet uit de weg zoals de Ottoboni-kamermuziekwedstrijd te Lier en Mondomusica in Cremona (Italië).
-            
+
 Alegría maakt graag kennis met binnen- en buitenlandse gitaarensembles en koren, waarmee duoconcerten georganiseerd worden. Alegría was reeds te gast in Cambridge (GB), Rheine (Duitsland), Mirandola (Italië), Juvisy-sur-Orge (Frankrijk), Hongarije en Groningen (Nederland). We werkten samen met de gitaarensembles Cuerda (Antwerpen), Color (Schaarbeek), het gitaarduo Flâmas en met enkele koren, ondermeer La Gioia (Vichte) en Amaranthe (Oudenaarde).            
 
 Dit jaar is Alegría te gast in Rheine (Duitsland) en in maart 2021 komt het Hongaarse gitaarensemble naar België om samen met Alegría een duoconcertweekend te spelen.            
