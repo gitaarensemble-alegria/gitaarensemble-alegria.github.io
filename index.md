@@ -23,9 +23,8 @@ layout: page
         <header class="major">
         <h2>Wijn- en pralineverkoop 2020</h2>
         <p>
-        Ook dit jaar verkopen we wijn, prosecco en pralines om activiteiten te organiseren.
+Dank jullie wel voor jullie duwtje in de rug - Smakelijk en santé!
         </p>
-        <p><a href="/events/2020-10-03-wijn-praline-verkoop.html" class="button primary">Bestellen</a></p>
         </header>
     </div>
 </section>
